@@ -10,4 +10,5 @@ if(isset($_COOKIE['cookie'])){
     echo "<pre>";
     print_r($_COOKIE["cookie"]);
 }
+
 ?>
