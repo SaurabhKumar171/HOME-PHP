@@ -1,10 +1,12 @@
 <?php
-$file_name="docs/content.txt";
-$file= fopen($file_name,'r');
-$file_Size=filesize($file_name);
-// echo $file_Size."Bytes";
-$content =fread($file,$file_Size);
-fclose($file);
+// $a = readfile("content.txt");
+// echo $a;     // return content in file and no. of charaacters in it (including spaces)
 
-echo $content;
+
+
+//return only file's content not no. of char
+readfile("content.txt");
+
+//To read HTML file
+readfile('file.html');
 ?>
